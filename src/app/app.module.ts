@@ -3,11 +3,11 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BindingComponent } from './componentes/binding/binding.component';
 import { FormsModule } from '@angular/forms';
-import { BienvenidoComponent } from './bienvenido/bienvenido.component';
-import { LoginComponent } from './login/login.component';
-import { ErrorComponent } from './error/error.component';
+import { BindingComponent } from './componentes/binding/binding.component';
+import { BienvenidoComponent } from './componentes/bienvenido/bienvenido.component';
+import { LoginComponent } from './componentes/login/login.component';
+import { ErrorComponent } from './componentes/error/error.component';
 
 @NgModule({
   declarations: [ //los componentes que vamos a usar

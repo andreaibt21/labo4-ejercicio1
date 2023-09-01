@@ -1,0 +1,14 @@
+<h1>Ejercicio 1</h1>
+<!-- <app-binding></app-binding> -->
+
+<input type="text" [(ngModel)]="edad1" placeholder="ingrese edad" />
+<input type="text" [(ngModel)]="edad2" placeholder="ingrese edad" />
+
+<p>
+  Suma:
+  <input type="text" name="suma" [(ngModel)]="suma" disabled="true" />
+  Promedio:
+  <input type="text" name="promedio" [(ngModel)]="promedio" disabled="true" />
+</p>
+
+<input type="button" value="calcular" (click)="calcular()" />

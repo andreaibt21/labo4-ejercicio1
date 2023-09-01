@@ -1,0 +1,19 @@
+<!--
+  {{}} interpolacion controlador a vista
+  [] property binding c -> v
+  () event binding v -> c
+  [()] two way binding
+-->
+
+<p>En la clase esta escrita el atributo name con valor : {{name}} así la info llega desde el controlador a la vista</p>
+ <!-- [] para darle valores a los atributos - lo busca en el controlador a la vista-->
+
+ <!-- de la vista al controlador con los parentesis envuelvo el evento
+      (click)="onClick($event) $event objeto que probee angular
+-->
+<p>{{number}}</p>
+
+<input type="button" [value]="btnLabel" (click)="onClickkk($event)">
+
+<p>{{apellido}}</p>
+<input type="text" [(ngModel)]="apellido" placeholder="ingrese apellido">
